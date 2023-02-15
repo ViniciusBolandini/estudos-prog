@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body{
+    background-color: #45C4B0;
+}
+div{
+    background-color: #ffffff;
+    box-shadow: 5px 5px 15px #2e8376;
+    border-radius: 10px;
+    max-width: 600px;
+    margin:auto
+    
+    
+}
+
+h1{
+    color: #012030;
+    text-align: center;
+}
+h2{
+    color:#13678A ;
+    text-align: center;
+}
+p{
+    text-align: justify;
+    text-align: center;
+}
+h3{
+    color:#13678A;
+    text-align: center;
+}

@@ -1,0 +1,94 @@
+@charset 'UTF-8';
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #f2f1f2;
+    
+}
+header{
+    background-color: #e2e2e3;
+    padding-top: 30px;
+    height: 100px;
+    
+    
+}
+header > h1 {
+    display: inline-block;
+    
+    padding: 11px 200px 20px 45px;
+
+}
+header > a{
+    display: inline-block;
+    background-color: #e2e2e3;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    margin-left: auto;
+    font-size: 20px;
+}
+header > a:hover{
+    color: white;
+    transition: 0.4s;
+}
+a#pesquisar {
+    display: inline-block;
+    color: #acacad;
+    background-color: white;
+    border-radius: 24px;
+    border-style: solid;
+    border-color: black;
+    padding-left: 30px;
+    margin-top: 30px;
+    
+
+   
+}
+main{
+height: 600px;
+max-width: 800px;
+background-color: bisque;
+padding: 40px 0px;
+margin: auto;
+}
+div.noticias{
+    background-color: white;
+    width: 250px;
+    height: 280px;
+    padding: 15px;
+    
+}
+div.noticias > h2{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+div.noticias > p{
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+div.noticias > a{
+    display: block;
+    text-align: center;
+    margin-top: 35px;
+    background-color: #acacad;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 30px;
+    width: 50%px
+    
+}
+div.noticias > a:hover{
+    background-color: rgb(116, 114, 114);
+    color: white;
+    transition: 0.5s;
+    
+}
+footer{
+    background-color: #acacad;
+}

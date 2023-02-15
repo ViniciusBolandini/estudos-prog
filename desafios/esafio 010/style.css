@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #D6D58E;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-image: linear-gradient(to bottom,#0a5c8f,#042940);
+    min-height: 140px;
+}
+header > h1{
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.645);
+    padding-top: 20px;
+}
+header > p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.645);
+    padding-top: 10px;
+    margin-left: 20px;
+    margin-left: 20px;
+}
+nav{
+    background-color: #042940;
+    padding-bottom: 7px;
+}
+nav > a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+nav > a:hover{
+    background-color: #0a5c8f;
+    padding: 5px;
+    transition-duration: 0.3s;
+}
+main{
+    background-color: white;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.578);
+    border-radius: 0px 0px 10px 10px;
+}
+img{
+    width: 100%;
+}
+img#finalicon{
+    display: block;
+    margin: auto;
+    max-width: 350px;
+}
+
+main > h2 {
+    color: rgb(0, 0, 0);
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #DBF227,transparent);
+    padding: 10px;
+    border-radius: 15px;
+}
+main > p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 50px;
+    line-height: 1.5em;
+    
+}
+
+footer{
+    background-color: #042940;
+    padding: 10px;
+}
+footer > p {
+    color: white;
+    text-align: center;
+    margin: 0px;
+    
+}
+div#video{
+    background-color: #005C53;
+    margin: 0px -20px 0px -20px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+}
+div#video > iframe{
+   position: absolute;
+   top: 5%;
+   left: 5%;
+   width: 90%;
+   height: 90%;
+}
+div#plus{
+    background-color: #9FC131;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+    margin-top: 20px;
+}
+div#plus > h3{
+    background-color: #485816;
+    padding: 5px;
+    color: white;
+    margin: -10px -10px 0px -10px;
+    border-radius: 5px 5px 0px 0px;
+}
+div#plus > ul{
+    list-style-position: inside;
+    columns: 2;
+    padding: 10px;
+}
