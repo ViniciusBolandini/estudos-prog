@@ -66,18 +66,21 @@ div.normal{
 div.imagem{
     background-color: rgb(149, 148, 148);
     color: white;
-    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.492)
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.492);
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
+    
     
 }
 div#img001{
     background-image: url('./imagens/background002.jpg');
-    background-size: 100% 100%;
-    background-attachment: fixed;
+    
+    
 }
 div#img002{
     background-image: url('./imagens/background001.jpg');
-    background-size: 100% 100%;
-    background-attachment: fixed;
+    
 }
 
 div.imagem > p{
