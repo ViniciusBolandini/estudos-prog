@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-color: black;
+    color: white;
+    height: 100px;
+    text-align: center;
+    padding: 50px;
+    font-size: 27px;
+}
+div.normal{
+    width: 200px;
+    font-weight: 600;
+    margin: 20px;
+    padding: 10px;
+}
+div.para{
+    width: 200px;
+    font-weight: 600;
+    margin: 20px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.603);
+    color: white;
+}
+div.container{
+    height: 200px;
+    background-color: black;
+    background-image: url('./imagens/pena-de-esferográfica-e-folha-escrita-à-mão-88762944.jpg');
+    background-size: cover;
+    background-position: right bottom;
+    padding-top: 20px;
+    background-attachment: fixed;
+}
